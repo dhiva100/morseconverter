@@ -19,6 +19,6 @@ for char in input_txt:
     if char in morse_code_dict:
         morse_txt.append(morse_code_dict[char])
     else:
-        pass
+        pass`
 morse_output = ' '.join(morse_txt)
 print("Generated Morse Code - ", morse_output)
